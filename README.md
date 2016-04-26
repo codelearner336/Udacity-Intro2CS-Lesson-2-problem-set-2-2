@@ -7,3 +7,5 @@ Program:
 Define a procedure to find the range of a set of three number (range = highest-lowest)
 
 Program: take two strings as input. Check if all the characters in the second string exist in the frist string. Note character order is not importante eg if string one is abcd and string two is dc, then the answer is True. 
+
+Program: number of days in life. Print the number of days from your birthday up to today i.e. print the number of days between two dates. Allow for leap years; Consider if birth year or this year are leap years and factor in when the leap day occured e.g. birthday is Feb 4th in a leap years means you must add the leap day, but birthday March 1 in a leap year does not count the leap day.
