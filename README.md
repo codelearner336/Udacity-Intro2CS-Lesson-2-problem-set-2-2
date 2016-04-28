@@ -12,6 +12,8 @@ take two strings as input. Check if all the characters in the second string exis
 Program: 
 number of days in life. Print the number of days from your birthday up to today i.e. print the number of days between two dates. Allow for leap years; Consider if birth year or this year are leap years and factor in when the leap day occured e.g. birthday is Feb 4th in a leap years means you must add the leap day, but birthday March 1 in a leap year does not count the leap day.
 
+Program: 
+number of days in life with defensive checks.  same code as above but with several defensive checks added e.g. logic to make sure birth date is before current date; logic to ensure e.g. March can't have 35 days, that Feb can have 29 days in a leap year but 28 in a common year. 
 
 Program: 
 caculate the median of 3 numbers.
