@@ -25,6 +25,12 @@ def daysBetweenDates(birthyear, birthmonth, birthday, currentyear, currentmonth,
     daysOfMonths = [ 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 
 
+######  Happy birthday
+
+    if birthmonth = currentmonth and birthday == today:
+            print "Happy Birthday!!!"
+
+
 ###### Defensive code section   check if dates are valid e.g June 31 is not acceptable, birth year ahead of current year, month 13, year with more than 4 digits
   
 ## Defensive a) year value must not be more than 4 digits. This is just a choice, not really wrong with year 10000
