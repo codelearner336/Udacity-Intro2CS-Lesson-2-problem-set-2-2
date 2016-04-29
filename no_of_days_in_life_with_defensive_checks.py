@@ -20,15 +20,14 @@
         # Defensive d1)  - the currentdates must be ahead of the birthdates;
     ##Defensive e) birth date must be before current date   
         
+# the third commit added a messge in the output and allowed user input.
+
 
 def daysBetweenDates(birthyear, birthmonth, birthday, currentyear, currentmonth, today):
     daysOfMonths = [ 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 
 
-######  Happy birthday
 
-    if birthmonth = currentmonth and birthday == today:
-            print "Happy Birthday!!!"
 
 
 ###### Defensive code section   check if dates are valid e.g June 31 is not acceptable, birth year ahead of current year, month 13, year with more than 4 digits
@@ -259,7 +258,13 @@ def daysBetweenDates(birthyear, birthmonth, birthday, currentyear, currentmonth,
                 if birthday < 29:
                     addleap_for_birthyear = 1
 
-                    
+######  Happy birthday
+    import webbrowser
+    if birthmonth == currentmonth and birthday == today:
+            print  " \nHappy Birthday!!!"
+            webbrowser.open ("http://www.freelargeimages.com/wp-content/uploads/2014/11/Happy_Birthday_3400x2217.jpg")   
+    
+                                
 ## and the final answer is:
     
     
